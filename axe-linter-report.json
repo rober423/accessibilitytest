@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "engineId": "axe-linter-html",
+      "ruleId": "html-has-lang (https://dequeuniversity.com/rules/axe/4.6/html-has-lang?application=axe-linter-connector)",
+      "severity": "MAJOR",
+      "type": "BUG",
+      "primaryLocation": {
+        "filePath": "bad-example.html",
+        "message": "Ensures every HTML document has a lang attribute",
+        "textRange": {
+          "startLine": 2,
+          "endLine": 2,
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      }
+    },
+    {
+      "engineId": "axe-linter-html",
+      "ruleId": "image-alt (https://dequeuniversity.com/rules/axe/4.6/image-alt?application=axe-linter-connector)",
+      "severity": "MAJOR",
+      "type": "BUG",
+      "primaryLocation": {
+        "filePath": "bad-example.html",
+        "message": "Ensures <img> elements have alternate text or a role of none or presentation",
+        "textRange": {
+          "startLine": 36,
+          "endLine": 36,
+          "startColumn": 2,
+          "endColumn": 99
+        }
+      }
+    },
+    {
+      "engineId": "axe-linter-html",
+      "ruleId": "label (https://dequeuniversity.com/rules/axe/4.6/label?application=axe-linter-connector)",
+      "severity": "MAJOR",
+      "type": "BUG",
+      "primaryLocation": {
+        "filePath": "bad-example.html",
+        "message": "Ensures every form element has a label",
+        "textRange": {
+          "startLine": 168,
+          "endLine": 168,
+          "startColumn": 2,
+          "endColumn": 9
+        }
+      }
+    }
+  ]
+}
